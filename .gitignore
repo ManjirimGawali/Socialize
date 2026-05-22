@@ -19,6 +19,7 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
@@ -32,6 +33,11 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env
+.env.local
+.env.test.local
+.env.production.local
+
 
 # vercel
 .vercel
@@ -39,3 +45,30 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/lib/generated/prisma
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDE
+.idea/
+
+# local database files (if using sqlite)
+*.db
+*.sqlite
+
+# uploaded/generated files
+uploads/
+
+# temporary files
+tmp/
+temp/
+
+# eslint cache
+.eslintcache
+
+# package manager lock (optional if team chooses one package manager)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
