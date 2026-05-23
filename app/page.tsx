@@ -1,4 +1,4 @@
-
+export const dynamic = "force-dynamic";
 import { currentUser,auth } from "@clerk/nextjs/server";
 import CreatePost from "@/components/ui/CreatePost";
 import WhoToFollow from "@/components/ui/WhoToFollow";
