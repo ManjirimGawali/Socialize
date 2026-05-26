@@ -98,7 +98,7 @@ function MobileNavbar() {
                   </Link>
                 </Button>
 
-                {/* <Button
+                <Button
                   variant="ghost"
                   className="flex items-center gap-3 justify-start"
                   asChild
@@ -107,9 +107,9 @@ function MobileNavbar() {
                     <Search className="w-4 h-4" />
                     Search
                   </Link>
-                </Button> */}
+                </Button> 
 
-                {/* <Button
+                 {/* <Button
                   variant="ghost"
                   className="flex items-center gap-3 justify-start"
                   asChild

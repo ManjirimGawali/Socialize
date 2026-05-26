@@ -40,12 +40,12 @@ async function DesktopNavbar() {
             </Link>
           </Button>
 
-          {/* <Button variant="ghost" className="flex items-center gap-2" asChild>
+          <Button variant="ghost" className="flex items-center gap-2" asChild>
             <Link href="/search">
               <Search className="w-4 h-4" />
               <span className="hidden lg:inline">Search</span>
             </Link>
-          </Button> */}
+          </Button>
 
           {/* <Button variant="ghost" className="flex items-center gap-2" asChild>
             <Link href="/chats">
