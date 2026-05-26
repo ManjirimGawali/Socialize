@@ -10,11 +10,20 @@ async function WhoToFollow() {
   if (users.length === 0) return null;
 
   return (
-    <Card>
+    <Card className="
+rounded-[32px]
+border
+border-zinc-200/70
+dark:border-zinc-800
+bg-white/80
+dark:bg-zinc-950/80
+backdrop-blur-xl
+shadow-[0_8px_40px_rgba(0,0,0,0.04)]
+overflow-hidden">
       <CardHeader>
         <CardTitle>Who to Follow</CardTitle>
       </CardHeader>
-      <CardContent>
+      <CardContent className="p-6">
         <div className="space-y-4">
           {users.map((user) => (
             <div key={user.id} className="flex gap-2 items-center justify-between ">

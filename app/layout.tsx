@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Socially",
+  title: "Socialize",
   description: "A modern social media application",
 };
 

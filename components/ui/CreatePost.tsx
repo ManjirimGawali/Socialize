@@ -41,16 +41,33 @@ function CreatePost() {
   };
 
   return (
-    <Card className="mb-6">
-      <CardContent className="pt-6">
+    <Card className="mb-6 rounded-[32px]
+border
+border-zinc-200/70
+dark:border-zinc-800
+bg-white/80
+dark:bg-zinc-950/80
+backdrop-blur-xl
+shadow-[0_8px_40px_rgba(0,0,0,0.04)]
+overflow-hidden">
+      <CardContent className="p-6">
         <div className="space-y-4">
           <div className="flex space-x-4">
-            <Avatar className="w-10 h-10">
+            <Avatar className="w-12 h-12 border-2 border-zinc-200 dark:border-zinc-800">
               <AvatarImage src={user?.imageUrl || "/avatar.png"} />
             </Avatar>
             <Textarea
               placeholder="What's on your mind?"
-              className="min-h-[100px] resize-none border-none focus-visible:ring-0 p-0 text-base"
+              className="min-h-[120px]
+resize-none
+rounded-2xl
+border
+border-zinc-200
+dark:border-zinc-800
+bg-zinc-50/50
+dark:bg-zinc-900/50
+p-4
+focus-visible:ring-0"
               value={content}
               onChange={(e) => setContent(e.target.value)}
               disabled={isPosting}
