@@ -142,7 +142,7 @@ async function Sidebar() {
           <div className="flex flex-col items-center text-center">
 
             <Link
-              href={`/profile/${user.username}`}
+           href={`/profile/${user?.username ?? ""}`}
               className="flex flex-col items-center"
             >
 

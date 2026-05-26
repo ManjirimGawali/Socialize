@@ -165,7 +165,6 @@ function SearchUsers() {
       <Link
       key={user.id}
       href={`/profile/${user.username}`}
-
       className="
       flex
       items-center

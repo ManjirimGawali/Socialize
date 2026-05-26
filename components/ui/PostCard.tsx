@@ -402,7 +402,7 @@ function PostCard({
                   <div className="flex gap-2 items-center">
 
                     <Link
-                      href={`/profile/${post.author.username}`}
+                    href={`/profile/${post.author.username}`}
                       className="font-semibold"
                     >
                       {post.author.name}
